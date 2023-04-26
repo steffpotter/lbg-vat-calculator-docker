@@ -1,6 +1,6 @@
 pipeline{
  environment {
- registry = "steffdevops/vatcal"
+ registry = "steffdevops/webcalc"
         registryCredentials = "dockerhub_id"
         dockerImage = ""
     }
