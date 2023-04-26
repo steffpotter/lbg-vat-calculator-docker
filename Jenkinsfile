@@ -1,7 +1,7 @@
 pipeline{
  environment {
  registry = "steffdevops/webcalc"
-        registryCredentials = "dockerhub_id"
+        registryCredentials = "steffdevops_dockerhub_id"
         dockerImage = ""
     }
     agent any
